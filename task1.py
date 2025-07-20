@@ -6,5 +6,7 @@ try:
     cont2=file.readline()
     print("Reading file content :")
     print("Line 1:", cont1, "\nLine 2:", cont2)
+    file.close()
 except FileNotFoundError :
  print("Error: the file 'sample.txt' was not found ")
+
